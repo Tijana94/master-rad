@@ -1,1 +1,56 @@
-# master-rad
+# Developing of ANN model and the optimization of technological process of drinking water preparation using PSO alghoritm
+
+- In the first part of this master's project, several models of multiple linear regressions and artificial neural networks have been created, which, based on the quality of the raw and drinking water that are given at the entrance, determine the amount of chemical substances added during the water purification. Modeling results are given in the following diagrams: 
+  - MLR aluminium-sulphate
+    - training data
+    - stability assessment of model based on k-fold cross validation (k=10, minValue = , maxValue = )
+    - test data
+    - stability assessment of model based on k-fold cross validation (k=10, minValue = , maxValue = )
+  - ANN aluminium-sulphate
+    - topology 28-18-11-1
+      - training data
+      - stability assessment of model based on k-fold cross validation (k=10, minValue = , maxValue = )
+      - test data
+      - stability assessment of model based on k-fold cross validation (k=10, minValue = , maxValue = )
+    - topology 28-36-22-1
+      - training data
+      - stability assessment of model based on k-fold cross validation (k=10, minValue = , maxValue = )
+      - test data
+      - stability assessment of model based on k-fold cross validation (k=10, minValue = , maxValue = )
+  - MLR chlorine
+    - training data
+    - stability assessment of model based on k-fold cross validation (k=10, minValue = , maxValue = )
+    - test data
+    - stability assessment of model based on k-fold cross validation (k=10, minValue = , maxValue = )
+  - ANN chlorine
+    - topology 28-18-11-1
+      - training data
+      - stability assessment of model based on k-fold cross validation (k=10, minValue = , maxValue = )
+      - test data
+      - stability assessment of model based on k-fold cross validation (k=10, minValue = , maxValue = )
+    - topology 28-36-22-1
+      - training data
+      - stability assessment of model based on k-fold cross validation (k=10, minValue = , maxValue = )
+      - test data
+      - stability assessment of model based on k-fold cross validation (k=10, minValue = , maxValue = )
+  - MLR polyelectrolytes
+    - training data
+    - stability assessment of model based on k-fold cross validation (k=10, minValue = , maxValue = )
+    - test data
+    - stability assessment of model based on k-fold cross validation (k=10, minValue = , maxValue = )
+  - ANN polyelectrolytes
+    - topology 28-18-11-1
+      - training data
+      - stability assessment of model based on k-fold cross validation (k=10, minValue = , maxValue = )
+      - test data
+      - stability assessment of model based on k-fold cross validation (k=10, minValue = , maxValue = )
+    - topology 28-36-22-1
+      - training data
+      - stability assessment of model based on k-fold cross validation (k=10, minValue = , maxValue = )
+      - test data
+      - stability assessment of model based on k-fold cross validation (k=10, minValue = , maxValue = )
+      
+- In the second part of the paper, using the process of PSO optimization, and with the created models, minimum dose of the necessary substances is determined in order to get drinking water of satisfied quality for given raw water. Optimization results are given below:
+  - Aluminium-sulphate
+  - Chlorine
+  - Polyelectrolytes
